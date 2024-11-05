@@ -30,7 +30,7 @@ model_ids = {
 
 models = {}
 for name, model_id in model_ids.items():
-    model_path = f'{name}_model.sav'
+    model_path = 'path_to_your_model.h5'
     download_model(model_id, model_path)
     models[name] = joblib.load(model_path)
 
