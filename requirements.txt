@@ -1,0 +1,9 @@
+Flask 
+Pillow 
+joblib 
+tensorflow==2.13.1
+keras==2.13.1
+gunicorn
+numpy
+flask_cors
+gdown
